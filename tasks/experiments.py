@@ -114,4 +114,108 @@
 # print(count)
 
 
+# n: list = [1, 2, 3]
+# draw: list = []
+# count: int = 0
+# i: int = 0
+# running = True
+# while running:
+#     count = draw.append(n)
+#     print(draw)
+#     if len(draw) >= 3:
+#         running = False
+#
+
+
+# n: list = [1, 2, 3]
+# draw: list = []
+# count: int = 0
+# i: int = 0
+#
+# while i < len(n):
+#     count = draw.append(n[i])
+#     i += 1
+#     print(draw)
+
+
+# n = []
+# count = 0
+# for i in range(-10, -20, -2):
+#
+#     count = n.append(i)
+# print(n)
+
+
+# cookie_shapes = ['круглая', 'квадратная', 'звездная']
+# cookie_sizes = ['маленькое', 'среднее', 'большое']
+#
+# for shape in cookie_shapes:
+#     for size in cookie_sizes:
+#         print('выпекамем', size, shape)
+
+# - разбирал пример из TOPIC - 7 ВЛОЖЕННЫЙ WHILE
+# ----------------------------------------------
+
+# cookie_shapes: list = ['круглая', 'квадратная', 'звездная']
+# cookie_sizes: list = ['маленькое', 'среднее', 'большое']
+#
+# i_shape_index: int = 0
+#
+# while i_shape_index < len(cookie_shapes):
+#     i_size_index = 0
+#     while i_size_index < len(cookie_sizes):
+#         shape = cookie_shapes[i_shape_index]
+#         size = cookie_sizes[i_size_index]
+#         print('Bake', size, shape, 'cookie')
+#         i_size_index += 1
+#     i_shape_index += 1
+
+# ----------------------------------------------
+
+
+# height: int = 5
+# width: int = 3
+# rows: int = 2
+#
+# count: int = 0
+# count_2: int = 0
+# count_sum:int = 0
+#
+# for i in range(height):
+#     count += 1
+#     for j in range(width):
+#         count_2 += 1
+#         for w in range(rows):
+#             count_sum += 1
+#             print(w,count_sum)
+#
+#         print()
+#
+# print('count1', count)
+# print('count2', count_2)
+
+# _________________________________________________
+# letter: list = ['red', 'blue', 'green', 'black', 'yellow', 'orange']
+# count: int = 0
+#
+# for i in range(len(letter)):
+#     count += 1
+#     for j in range(i + 1):
+#         print(letter[i])
+# print('count_sum', count)
+# __________________________________________________
+
+
+# letter: list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+# count = 0
+#
+# for row in letter:
+#
+#     for j in row:
+#         count += 1
+#         print('row=', j, end=' ')
+#     print()
+#
+# print(count)
+
 
